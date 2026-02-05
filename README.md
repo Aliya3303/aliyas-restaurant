@@ -3,7 +3,7 @@
 A modern and responsive restaurant website built using Vite and frontend web technologies.
 
 ## 🚀 Live Demo
-👉 https://resturant-aliyas.netlify.app/home
+👉 https://resturant-aliyas.netlify.app
 
 ## 🛠️ Tech Stack
 - HTML5
@@ -45,3 +45,8 @@ A modern and responsive restaurant website built using Vite and frontend web tec
 ```bash
 npm install
 npm run dev
+
+## 👩‍💻 Author
+**Shaik Aliya**
+
+- GitHub: https://github.com/Aliya3303
