@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 14px 30px;
+  z-index: 10;
+}
+
+.brand {
+  background-color: #c1121f;
+  color: white;
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: "Georgia", serif;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+   background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+  background-image: url("/food-image.avif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* needed for ::before overlay */
+}
+
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* MENU BUTTON */
+.menu-btn {
+  background-color: #c1121f;
+  color: white;
+  border: 2px solid #c1121f;
+  padding: 12px 32px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-btn:hover {
+  background-color: white;
+  color: #c1121f;
+}

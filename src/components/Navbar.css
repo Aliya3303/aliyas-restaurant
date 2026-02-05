@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* 🔴 Restaurant Name */
+.brand {
+  background-color: rgb(139, 0, 0);
+  color: white;
+  padding: 6px 18px;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Georgia", serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover for name */
+.brand:hover {
+  background: white;
+  color: rgb(139, 0, 0);
+}
+
+/* Buttons container */
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* 🔴 Default button */
+.nav-btn {
+  background-color: rgb(139, 0, 0);
+  color: white;
+  border: 1.5px solid rgb(139, 0, 0);
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* ⚪ Hover → white */
+.nav-btn:hover {
+  background-color: white;
+  color: rgb(139, 0, 0);
+  border-color: rgb(139, 0, 0);
+}
+
+/* Active button */
+.nav-btn.active {
+  background-color: white;
+  color: rgb(139, 0, 0);
+  font-weight: bold;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
