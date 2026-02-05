@@ -1,16 +1,47 @@
-# React + Vite
+# 🍽️ Aliyas Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive restaurant website built using Vite and frontend web technologies.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+👉 https://resturant-aliyas.netlify.app/home
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Vite
 
-## React Compiler
+## ✨ Features
+- Attractive UI design
+- Responsive layout
+- Food gallery section
+- Fast performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+### 🏠 Home Page
+![Home Page](screenshots/home-page.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌐 Landing Page
+![Landing Page](screenshots/landing-page.png)
+
+### 🍽️ Biriyani
+![Biriyani](screenshots/biriyani.png)
+
+### 🥗 Veg Specials
+![Veg Specials](screenshots/veg-specials.png)
+
+### 🍗 Non Veg Specials
+![Non Veg Specials](screenshots/non-veg-specials.png)
+
+### 🍨 Ice Creams
+![Ice Creams](screenshots/ice-creams.png)
+
+### 🍬 Sweets
+![Sweets](screenshots/sweets.png)
+
+
+## 📦 Installation & Run Locally
+```bash
+npm install
+npm run dev
